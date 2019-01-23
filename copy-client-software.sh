@@ -2,7 +2,7 @@
 # Copyright (c) 2018, 2019 Diamond Key Security, NFP  All rights reserved.
 #
 export HSM_SOFTWARE_PATH="client-software"
-export HSM_SOFTWARE_BUILD="sw/HSM/client_tools"
+export HSM_SOFTWARE_BUILD="sw/client-side-tools"
 export DKEY_INSTALL="install"
 export HSM_PKCS11_BUILD="sw/pkcs11"
 mkdir -p $HSM_SOFTWARE_PATH 
