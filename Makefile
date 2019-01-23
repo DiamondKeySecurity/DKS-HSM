@@ -13,7 +13,7 @@ cryptech:
 
 dks:
 	${MAKE} -C sw/pkcs11
-	${MAKE} -C sw/HSM/client_tools
+	${MAKE} -C sw/client-side-tools
 
 clean:
 	./repo-clean.sh
