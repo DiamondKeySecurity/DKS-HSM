@@ -1,0 +1,11 @@
+--- Makefile	2018-10-10 16:46:03.142037000 -0500
++++ Makefile.apps.new	2018-10-10 16:53:18.055642262 -0500
+@@ -314,7 +314,7 @@
+ AM_CPPFLAGS = -I$(top_srcdir)/include -I$(top_srcdir)/include/compat \
+ 	-DLIBRESSL_INTERNAL -D__BEGIN_HIDDEN_DECLS= \
+ 	-D__END_HIDDEN_DECLS=
+-SUBDIRS = ocspcheck openssl nc
++SUBDIRS = ocspcheck openssl
+ EXTRA_DIST = CMakeLists.txt
+ all: all-recursive
+ 
