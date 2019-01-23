@@ -28,3 +28,6 @@
 [submodule "sw/thirdparty/libressl-portable"]
 	path = sw/thirdparty/libressl-portable
 	url = https://github.com/libressl-portable/portable
+[submodule "sw/client-side-tools"]
+	path = sw/client-side-tools
+	url = git@gitlab.com:DiamondKeySecurity/DKS/sw/client-side-tools.git
