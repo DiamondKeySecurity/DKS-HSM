@@ -13,3 +13,6 @@
 [submodule "sw/client-side-tools"]
 	path = sw/client-side-tools
 	url = git@gitlab.com:DiamondKeySecurity/DKS/sw/client-side-tools.git
+[submodule "CrypTech"]
+	path = CrypTech
+	url = git@gitlab.com:DiamondKeySecurity/CrypTech/CrypTech.git
