@@ -1,21 +1,3 @@
-[submodule "CrypTech/sw/stm32"]
-	path = CrypTech/sw/stm32
-	url = git@gitlab.com:DiamondKeySecurity/CrypTech/sw/stm32
-[submodule "CrypTech/sw/libhal"]
-	path = CrypTech/sw/libhal
-	url = git@gitlab.com:DiamondKeySecurity/CrypTech/sw/libhal
-[submodule "CrypTech/sw/thirdparty/libtfm"]
-	path = CrypTech/sw/thirdparty/libtfm
-	url = git@gitlab.com:DiamondKeySecurity/CrypTech/sw/thirdparty/libtfm
-[submodule "CrypTech/sw/pkcs11"]
-	path = CrypTech/sw/pkcs11
-	url = git@gitlab.com:DiamondKeySecurity/CrypTech/sw/pkcs11
-[submodule "CrypTech/sw/tamper"]
-	path = CrypTech/sw/tamper
-	url = git@gitlab.com:DiamondKeySecurity/CrypTech/sw/tamper
-[submodule "CrypTech/user/paul/libcli"]
-	path = CrypTech/user/paul/libcli
-	url = https://git.cryptech.is/user/paul/libcli.git
 [submodule "sw/libdks"]
 	path = sw/libdks
 	url = git@gitlab.com:DiamondKeySecurity/DKS/sw/libdks.git
