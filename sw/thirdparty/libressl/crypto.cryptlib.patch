@@ -1,0 +1,32 @@
+--- cryptlib.c	2019-01-28 13:06:30.147181800 -0600
++++ cryptlib_new.c	2019-01-28 13:08:32.394805100 -0600
+@@ -345,20 +345,21 @@
+ static void
+ OPENSSL_showfatal(const char *fmta, ...)
+ {
+-	struct syslog_data sdata = SYSLOG_DATA_INIT;
+-	va_list ap;
++//	struct syslog_data sdata = SYSLOG_DATA_INIT;
++//	va_list ap;
+ 
+-	va_start(ap, fmta);
+-	vsyslog_r(LOG_INFO|LOG_LOCAL2, &sdata, fmta, ap);
+-	va_end(ap);
++//	va_start(ap, fmta);
++//	vsyslog_r(LOG_INFO|LOG_LOCAL2, &sdata, fmta, ap);
++//	va_end(ap);
+ }
+ 
+ void
+ OpenSSLDie(const char *file, int line, const char *assertion)
+ {
+-	OPENSSL_showfatal(
+-	    "uid %u cmd %s %s(%d): OpenSSL internal error, assertion failed: %s\n",
+-	    getuid(), getprogname(), file, line, assertion);
++//	OPENSSL_showfatal(
++//	    "uid %u cmd %s %s(%d): OpenSSL internal error, assertion failed: %s\n",
++//	    getuid(), getprogname(), file, line, assertion);
++	printf("OpenSSL internal error, assertion failed: %s\n", assertion);
+ 	_exit(1);
+ }
+ 

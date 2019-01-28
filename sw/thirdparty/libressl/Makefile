@@ -9,5 +9,6 @@ LIBRESSL_BLD := ${DKS_ROOT}/sw/thirdparty/libressl
 setup:
 	cd ${LIBRESSL_SRC} && sh autogen.sh && ./configure --prefix="${LIBRESSL_BLD}" CFLAGS="-fPIC"
 	patch -d ${LIBRESSL_SRC}/apps < apps.Makefile.patch
+	patch -d ${LIBRESSL_SRC}/crypto < crypto.cryptlib.patch
 	${MAKE} -C ${LIBRESSL_SRC}
 	${MAKE} -C ${LIBRESSL_SRC} install
