@@ -12,5 +12,6 @@ cp -R $DKEY_INSTALL/* $HSM_SOFTWARE_PATH
 
 cp -R $HSM_SOFTWARE_BUILD/findHSM $HSM_SOFTWARE_PATH
 cp -R $HSM_SOFTWARE_BUILD/dks_setup_console $HSM_SOFTWARE_PATH
+cp -R $HSM_SOFTWARE_BUILD/cryptech $HSM_SOFTWARE_PATH/cryptech
 cp -R $HSM_PKCS11_BUILD/libcryptechdks-pkcs11.so $HSM_SOFTWARE_PATH
 tar cvfz dks-client-software.tgz $HSM_SOFTWARE_PATH/
