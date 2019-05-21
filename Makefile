@@ -4,7 +4,6 @@
 all: cryptech dks-client-software.tgz
 
 setup:
-	git submodule update --init --recursive
 	cd sw/HSM && ./getcryptech.sh
 	${MAKE} -C sw/thirdparty/libressl
 
