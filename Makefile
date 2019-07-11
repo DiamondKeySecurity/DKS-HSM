@@ -4,8 +4,8 @@
 all: cryptech dks-client-software.tgz
 
 setup:
-	cd sw/HSM && ./getcryptech.sh
 	${MAKE} -C sw/thirdparty/libressl
+#	cd sw/HSM && ./getcryptech.sh
 
 cryptech:
 	${MAKE} -C CrypTech
