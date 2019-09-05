@@ -29,6 +29,9 @@ cp $HSM_SOFTWARE_BUILD/pi/initialize.py $HSM_TEMP_PATH
 cp $HSM_SOFTWARE_BUILD/cryptech_muxd_server $HSM_SOFTWARE_PATH
 
 find $HSM_TEMP_PATH -type f -name '*.pyc' -exec rm {} +
+rm -rf $HSM_TEMP_PATH/HSM/sw/build
+rm -rf $HSM_TEMP_PATH/HSM/sw/hsm_data/*.cpp
+rm -rf $HSM_TEMP_PATH/HSM/sw/hsm_data/*.so
 
 tar -zcvf updates/$HSM_TARBALL_PATH -C $HSM_TEMP_PATH HSM initialize.py resources
 rm -rf $HSM_TEMP_PATH 
