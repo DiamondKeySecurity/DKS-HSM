@@ -38,3 +38,12 @@ used to build the project.
 'make'         - 'make' will build the raspberry pi and host computer applications.
 
 'make install' - 'make install' will copy the raspberry pi software to an SD card.
+
+--------------------------------------------------------------------------------
+Move to GitHub
+--------------------------------------------------------------------------------
+All of Diamond Key Security's git repositories were previously hosted on Gitlab.
+On September 24, 2019, they were moved to GitHub. Because of this, all commits
+in the CrypTech and DKS-HSM repositories before September 25, 2019 are no longer
+valid because they have submodules that refer to repositories on Gitlab that can
+no longer be accessed.
