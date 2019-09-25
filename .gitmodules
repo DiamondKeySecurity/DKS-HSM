@@ -1,3 +1,18 @@
 [submodule "sw/thirdparty/libressl-portable"]
 	path = sw/thirdparty/libressl-portable
 	url = https://github.com/libressl-portable/portable
+[submodule "CrypTech"]
+	path = CrypTech
+	url = https://github.com/DiamondKeySecurity/CrypTech
+[submodule "sw/HSM"]
+	path = sw/HSM
+	url = https://github.com/DiamondKeySecurity/HSM
+[submodule "sw/pkcs11"]
+	path = sw/pkcs11
+	url = https://github.com/DiamondKeySecurity/pkcs11
+[submodule "sw/libdks"]
+	path = sw/libdks
+	url = https://github.com/DiamondKeySecurity/libdks
+[submodule "sw/client-side-tools"]
+	path = sw/client-side-tools
+	url = https://github.com/DiamondKeySecurity/client-side-tools
