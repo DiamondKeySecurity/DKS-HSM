@@ -1,18 +1,3 @@
-[submodule "sw/libdks"]
-	path = sw/libdks
-	url = git@gitlab.com:DiamondKeySecurity/DKS/sw/libdks.git
-[submodule "sw/HSM"]
-	path = sw/HSM
-	url = git@gitlab.com:DiamondKeySecurity/DKS/sw/HSM
-[submodule "sw/pkcs11"]
-	path = sw/pkcs11
-	url = git@gitlab.com:DiamondKeySecurity/DKS/sw/pkcs11
 [submodule "sw/thirdparty/libressl-portable"]
 	path = sw/thirdparty/libressl-portable
 	url = https://github.com/libressl-portable/portable
-[submodule "sw/client-side-tools"]
-	path = sw/client-side-tools
-	url = git@gitlab.com:DiamondKeySecurity/DKS/sw/client-side-tools.git
-[submodule "CrypTech"]
-	path = CrypTech
-	url = git@gitlab.com:DiamondKeySecurity/CrypTech/CrypTech.git
